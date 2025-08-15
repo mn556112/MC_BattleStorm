@@ -121,4 +121,3 @@ mvn clean package
   <li><code>config.yml</code> 파일을 수정하여 스톰 설정을 적용할 수 있습니다.</li>
 </ol>
 
-<p>이제 서버에서 <code>/storm</code> 명령어를 통해 BattleStorm을 즐기실 수 있습니다!</p>
