@@ -1,0 +1,15 @@
+name: BattleStorm
+main: com.example.battlestorm.Main
+version: 1.0.5-LTS for 4 plr
+api-version: 1.21
+description: Fortnite-like storm system
+commands:
+  storm:
+    description: Manage the storm
+    usage: /<command> [start|stop|setcenter|show|add|remove|edit]
+    aliases: [bs, battlestorm]
+    permission: battlestorm.manage
+permissions:
+  battlestorm.manage:
+    description: Allows management of the storm
+    default: op
